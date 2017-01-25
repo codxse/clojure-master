@@ -28,8 +28,8 @@
       <file leaf-file-name="record.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/try_polym/record.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="12" column="65" lean-forward="true" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -38,8 +38,8 @@
       <file leaf-file-name="protocol.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/try_polym/protocol.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -48,8 +48,8 @@
       <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/try_polym/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -66,8 +66,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/try_polym/multimethod.clj" />
-        <option value="$PROJECT_DIR$/src/try_polym/protocol.clj" />
         <option value="$PROJECT_DIR$/src/try_polym/record.clj" />
+        <option value="$PROJECT_DIR$/src/try_polym/protocol.clj" />
+        <option value="$PROJECT_DIR$/src/try_polym/core.clj" />
       </list>
     </option>
   </component>
@@ -132,7 +133,7 @@
     <property name="FullScreen" value="true" />
     <property name="cursive.last.file.extension./Users/Nadiar/Leinspaces/clojure-master/try-polym/src" value="clj" />
   </component>
-  <component name="ReplState" timestamp="1485326206098">{:repl-history {:ide [], :local [&quot;(in-ns 'try-polym.multimethod)&quot; &quot;(animal-behavior {:animal-familly :cat\n                  :name \&quot;Garfield\&quot;})&quot; &quot;;; dispatch function, first will run this\n;; to decide what method to use\n(defmulti\n  animal-behavior\n  (fn [animal]\n    (get animal :animal-familly)))\n\n;; method, will return value\n(defmethod animal-behavior :cat\n  [animal]\n  {:name (get animal :name)\n   :familly (get animal :animal-familly)\n   :behavior \&quot;Meow!\&quot;})\n\n(defmethod animal-behavior :dog\n  [animal]\n  {:name (get animal :name)\n   :familly (get animal :animal-familly)\n   :behavior \&quot;Woof!\&quot;})\n\n(defmethod animal-behavior :cow\n  [animal]\n  {:name (get animal :name)\n   :familly (get animal :animal-familly)\n   :behavior \&quot;Mooh!\&quot;})&quot; &quot;(animal-behavior {:animal-familly :cat\n                  :name \&quot;Garfield\&quot;})\n(animal-behavior {:animal-familly :dog\n                  :name \&quot;Guffy\&quot;})\n(animal-behavior {:animal-familly :cow\n                  :name \&quot;Dancow\&quot;})&quot; &quot;(in-ns 'try-polym.core)&quot; &quot;(animal-behavior {:animal-familly :bird :name \&quot;Elang\&quot;})&quot; &quot;(refer 'try-polym.multimethod)&quot; &quot;(defmethod animal-behavior nil\n  [animal]\n  {:name (get animal :name :unknown)\n   :familly :unknown\n   :behavior \&quot;?\&quot;})&quot; &quot;(animal-behavior {})\n(animal-behavior {:name \&quot;Alien\&quot;})&quot; &quot;(animal-behavior)&quot; &quot;(ns-interns *ns*)&quot; &quot;(defmethod animal-behavior :default\n  [animal]\n  {:name (get animal :name)\n   :familly (get animal :animal-familly)\n   :behavior \&quot;~~~~~~~~~!\&quot;})&quot; &quot;(animal-behavior {:animal-familly :bird\n                  :name \&quot;Pigeon\&quot;})\n(animal-behavior {:animal-familly :frog\n                  :name \&quot;Kaeor\&quot;})&quot; &quot;(in-ns try-polym.record)&quot; &quot;(in-ns 'try-polym.record)&quot; &quot;(clojure.core/refer-clojure)&quot; &quot;(ns try-polym.record)\n\n(defrecord Animal [name animal-familly behavior])\n\n;; intensiate it!\n\n;; interloop java\n;; produce java object!\n(def cat (Animal. \&quot;Garfield\&quot; :cat \&quot;Meow!\&quot;))\n\n;; function factory\n(def dog (-&gt;Animal \&quot;Guffy\&quot; :dog \&quot;Woof!\&quot;))\n\n;; just like hash-map\n(def cow (map-&gt;Animal {:name \&quot;Dancow\&quot;\n                       :animal-familly :cow\n                       :behavior \&quot;Mooh!\&quot;}))&quot; &quot;(type cat)&quot; &quot;(ns try-polym.protocol\n  (:require [try-polym.record :refer [cat dog cow]])\n  (:import [try_polym.record Animal]))\n\n(defprotocol ICreature\n  (say-something [m])\n  (get-familly [m]))\n\n;; implement Creature\n(defrecord Animal [name animal-familly behavior]\n  ICreature\n  (say-something [m]\n    {:behavior (get m :behavior)})\n  (get-familly [m]\n    {:familly (get m :animal-familly)}))\n\n(say-something cat)\n(say-something dog)\n(say-something cow)\n\n(get-familly cat)\n(get-familly dog)\n(get-familly cow)\n\n&quot; &quot;(ns try-polym.record\n  (:require [try-polym.protocol :as p]))\n\n(defrecord Animal [name animal-familly behavior]\n  p/ICreature\n  (say-something [x] x)\n  (get-familly [x] x))\n\n;; intensiate it!\n\n;; interloop java\n;; produce java object!\n(def cat (Animal. \&quot;Garfield\&quot; :cat \&quot;Meow!\&quot;))\n\n;; function factory\n(def dog (-&gt;Animal \&quot;Guffy\&quot; :dog \&quot;Woof!\&quot;))\n\n;; just like hash-map\n(def cow (map-&gt;Animal {:name \&quot;Dancow\&quot;\n                       :animal-familly :cow\n                       :behavior \&quot;Mooh!\&quot;}))\n\n(say-something cat)&quot; &quot;(defrecord Animal [name animal-familly behavior]\n  p/ICreature\n  (p/say-something [x] x)\n  (p/get-familly [x] x))&quot; &quot;(say-something cat)&quot;], :remote []}}</component>
+  <component name="ReplState" timestamp="1485335341497">{:repl-history {:ide [], :local [&quot;(in-ns 'try-polym.multimethod)&quot; &quot;(animal-behavior {:animal-familly :cat\n                  :name \&quot;Garfield\&quot;})&quot; &quot;;; dispatch function, first will run this\n;; to decide what method to use\n(defmulti\n  animal-behavior\n  (fn [animal]\n    (get animal :animal-familly)))\n\n;; method, will return value\n(defmethod animal-behavior :cat\n  [animal]\n  {:name (get animal :name)\n   :familly (get animal :animal-familly)\n   :behavior \&quot;Meow!\&quot;})\n\n(defmethod animal-behavior :dog\n  [animal]\n  {:name (get animal :name)\n   :familly (get animal :animal-familly)\n   :behavior \&quot;Woof!\&quot;})\n\n(defmethod animal-behavior :cow\n  [animal]\n  {:name (get animal :name)\n   :familly (get animal :animal-familly)\n   :behavior \&quot;Mooh!\&quot;})&quot; &quot;(animal-behavior {:animal-familly :cat\n                  :name \&quot;Garfield\&quot;})\n(animal-behavior {:animal-familly :dog\n                  :name \&quot;Guffy\&quot;})\n(animal-behavior {:animal-familly :cow\n                  :name \&quot;Dancow\&quot;})&quot; &quot;(in-ns 'try-polym.core)&quot; &quot;(animal-behavior {:animal-familly :bird :name \&quot;Elang\&quot;})&quot; &quot;(refer 'try-polym.multimethod)&quot; &quot;(defmethod animal-behavior nil\n  [animal]\n  {:name (get animal :name :unknown)\n   :familly :unknown\n   :behavior \&quot;?\&quot;})&quot; &quot;(animal-behavior {})\n(animal-behavior {:name \&quot;Alien\&quot;})&quot; &quot;(animal-behavior)&quot; &quot;(ns-interns *ns*)&quot; &quot;(defmethod animal-behavior :default\n  [animal]\n  {:name (get animal :name)\n   :familly (get animal :animal-familly)\n   :behavior \&quot;~~~~~~~~~!\&quot;})&quot; &quot;(animal-behavior {:animal-familly :bird\n                  :name \&quot;Pigeon\&quot;})\n(animal-behavior {:animal-familly :frog\n                  :name \&quot;Kaeor\&quot;})&quot; &quot;(in-ns try-polym.record)&quot; &quot;(in-ns 'try-polym.record)&quot; &quot;(clojure.core/refer-clojure)&quot; &quot;(ns try-polym.record)\n\n(defrecord Animal [name animal-familly behavior])\n\n;; intensiate it!\n\n;; interloop java\n;; produce java object!\n(def cat (Animal. \&quot;Garfield\&quot; :cat \&quot;Meow!\&quot;))\n\n;; function factory\n(def dog (-&gt;Animal \&quot;Guffy\&quot; :dog \&quot;Woof!\&quot;))\n\n;; just like hash-map\n(def cow (map-&gt;Animal {:name \&quot;Dancow\&quot;\n                       :animal-familly :cow\n                       :behavior \&quot;Mooh!\&quot;}))&quot; &quot;(type cat)&quot; &quot;(ns try-polym.protocol\n  (:require [try-polym.record :refer [cat dog cow]])\n  (:import [try_polym.record Animal]))\n\n(defprotocol ICreature\n  (say-something [m])\n  (get-familly [m]))\n\n;; implement Creature\n(defrecord Animal [name animal-familly behavior]\n  ICreature\n  (say-something [m]\n    {:behavior (get m :behavior)})\n  (get-familly [m]\n    {:familly (get m :animal-familly)}))\n\n(say-something cat)\n(say-something dog)\n(say-something cow)\n\n(get-familly cat)\n(get-familly dog)\n(get-familly cow)\n\n&quot; &quot;(ns try-polym.record\n  (:require [try-polym.protocol :as p]))\n\n(defrecord Animal [name animal-familly behavior]\n  p/ICreature\n  (say-something [x] x)\n  (get-familly [x] x))\n\n;; intensiate it!\n\n;; interloop java\n;; produce java object!\n(def cat (Animal. \&quot;Garfield\&quot; :cat \&quot;Meow!\&quot;))\n\n;; function factory\n(def dog (-&gt;Animal \&quot;Guffy\&quot; :dog \&quot;Woof!\&quot;))\n\n;; just like hash-map\n(def cow (map-&gt;Animal {:name \&quot;Dancow\&quot;\n                       :animal-familly :cow\n                       :behavior \&quot;Mooh!\&quot;}))\n\n(say-something cat)&quot; &quot;(defrecord Animal [name animal-familly behavior]\n  p/ICreature\n  (p/say-something [x] x)\n  (p/get-familly [x] x))&quot; &quot;(say-something cat)&quot; &quot;(ns try-polym.record)\n\n(defrecord TreeNode [val l r])\n\n(defn xconj [t v]\n  (cond\n    (nil? t) (TreeNode. v nil nil)\n    (&lt; v (get t :val)) (TreeNode. (get t :val) (xconj (:l t) v) (get t :r))\n    :else (TreeNode. (get t :val) (get t :l) (xconj (get t :r) v))))\n\n(defn xseq [t]\n  (when t\n    (concat (xseq (get t :l)) [(get t :val) (xseq (get t :r))])))&quot; &quot;(def simple-tree (reduce xconj nil [3 5 2 4 6]))&quot; &quot;sample-tree&quot; &quot;simple-tree&quot; &quot;(xseq simple-tree)&quot;], :remote []}}</component>
   <component name="RunManager" selected="Clojure REPL.nREPL">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -395,12 +396,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4278846" sideWeight="0.50572246" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4278846" sideWeight="0.50858366" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.49427754" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.4914163" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -430,14 +431,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/try_polym/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/try_polym/multimethod.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -446,18 +439,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/try_polym/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/try_polym/record.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="12" column="65" lean-forward="true" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/try_polym/protocol.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="26" />
           <folding />
         </state>
       </provider>
