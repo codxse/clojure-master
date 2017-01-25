@@ -13,3 +13,15 @@
 (defn make-widget []
   "Return an (unstarted) instance of widget."
   (->Widget))
+
+(defn hello-handler
+  [req]
+  {:status 200
+   :body (str req)})
+
+(defn greeter [name]
+  (let [{:keys [name]} (get name :path-params)]
+    {:status 200
+     :body (if (empty? name)
+             "Who is there!?"
+             (str "Hello! " name "!"))}))
