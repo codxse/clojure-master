@@ -22,6 +22,5 @@
 (defn greeter [name]
   (let [{:keys [name]} (get name :path-params)]
     {:status 200
-     :body (if (empty? name)
-             "Who is there!?"
+     :body (when name
              (str "Hello! " name "!"))}))
