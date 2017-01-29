@@ -1,0 +1,404 @@
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.592 seconds.[0m
+notifying browser that file changed:  resources/public/js/goog/deps.js
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.425 seconds.[0m
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.385 seconds.[0m
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.405 seconds.[0m
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.368 seconds.[0m
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.437 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.347 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.417 seconds.[0m
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+[36m----  Compiler Warning on   src/try_om/core.cljs   line:11  column:6  ----[0m
+
+  [1mUse of undeclared Var om.dom/h1#d[0m
+
+  [36m 8[0m  [36m(defui Title[0m
+  [36m 9[0m  [36m  Object[0m
+  [36m10[0m  [36m  (render [this][0m
+  [33m11[0m  [1m    (dom/h1#d {} "This is Title")))[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var om.dom/h1#d[0m
+  [36m12[0m  [36m[0m
+  [36m13[0m  [36m(def h1 (om/factory Title))[0m
+  [36m14[0m  [36m[0m
+  [36m15[0m  [36m(js/ReactDOM.render (h1) (gdom/getElement "app"))[0m
+
+[36m----  Compiler Warning : Please see src/try_om/core.cljs  ----[0m
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.43 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.346 seconds.[0m
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.362 seconds.[0m
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.437 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.456 seconds.[0m
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.56 seconds.[0m
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.403 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+[36m----  Compiler Warning on   src/try_om/core.cljs   line:11  column:14  ----[0m
+
+  [1mUse of undeclared Var try-om.core/cljs->js[0m
+
+  [36m 8[0m  [36m(defui Title[0m
+  [36m 9[0m  [36m  Object[0m
+  [36m10[0m  [36m  (render [this][0m
+  [33m11[0m  [1m    (dom/h1 (cljs->js {:className "Hello"}) "This is Title")))[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var try-om.core/cljs->js[0m
+  [36m12[0m  [36m[0m
+  [36m13[0m  [36m(def h1 (om/factory Title))[0m
+  [36m14[0m  [36m[0m
+  [36m15[0m  [36m(js/ReactDOM.render (h1) (gdom/getElement "app"))[0m
+
+[36m----  Compiler Warning : Please see src/try_om/core.cljs  ----[0m
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.446 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.339 seconds.[0m
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.703 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.329 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.384 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.375 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.327 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.373 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.408 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.434 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.344 seconds.[0m
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.472 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.387 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.444 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.33 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.349 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/core.cljs to resources/public/js/try_om/core.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.382 seconds.[0m
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.941 seconds.[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.481 seconds.[0m
+notifying browser that file changed:  out/try_om/core.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling src/try_om/states.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs to resources/public/js/try_om/states.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.409 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  out/try_om/states.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling src/try_om/states.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs to resources/public/js/try_om/states.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.473 seconds.[0m
+notifying browser that file changed:  out/try_om/states.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling src/try_om/states.cljs
+[31mFailed to compile "resources/public/js/main.js" in 0.26 seconds.[0m
+[36m----  Could not Analyze  src/try_om/states.cljs   line:12  column:3  ----[0m
+
+  [1mUnsupported binding form: (om/props this)[0m
+
+  [36m10[0m  [36m(defui Counter[0m
+  [36m11[0m  [36m  Object[0m
+  [33m12[0m  [1m  (let [{:keys [count]} (om/props this)]))[0m
+  [0m  [0m  [33m  ^--- Unsupported binding form: (om/props this)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(def title (om/factory Title))[0m
+
+[36m----  Analysis Error : Please see src/try_om/states.cljs  ----[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling src/try_om/states.cljs
+[31mFailed to compile "resources/public/js/main.js" in 0.252 seconds.[0m
+[36m----  Could not Analyze  src/try_om/states.cljs   line:12  column:3  ----[0m
+
+  [1mUnsupported binding form: (om/props this)[0m
+
+  [36m10[0m  [36m(defui Counter[0m
+  [36m11[0m  [36m  Object[0m
+  [33m12[0m  [1m  (let [{:keys [count]} (om/props this)][0m
+  [0m  [0m  [33m  ^--- Unsupported binding form: (om/props this)[0m
+  [36m13[0m  [36m    (dom/div nil[0m
+  [36m14[0m  [36m      (dom/span nil (str "Count: " count))[0m
+  [36m15[0m  [36m      (dom/button nil[0m
+
+[36m----  Analysis Error : Please see src/try_om/states.cljs  ----[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling src/try_om/states.cljs
+[31mFailed to compile "resources/public/js/main.js" in 0.254 seconds.[0m
+[36m----  Could not Analyze  src/try_om/states.cljs   line:12  column:3  ----[0m
+
+  [1mUnsupported binding form: (om/props this)[0m
+
+  [36m10[0m  [36m(defui Counter[0m
+  [36m11[0m  [36m  Object[0m
+  [33m12[0m  [1m  (let [{:keys [count]} (om/props this)][0m
+  [0m  [0m  [33m  ^--- Unsupported binding form: (om/props this)[0m
+  [36m13[0m  [36m    (dom/div nil[0m
+  [36m14[0m  [36m      (dom/span nil (str "Count: " count))[0m
+  [36m15[0m  [36m      (dom/button nil[0m
+
+[36m----  Analysis Error : Please see src/try_om/states.cljs  ----[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling src/try_om/states.cljs
+[31mFailed to compile "resources/public/js/main.js" in 0.294 seconds.[0m
+[36m----  Could not Analyze  src/try_om/states.cljs   line:12  column:3  ----[0m
+
+  [1mUnsupported binding form: (om/props this)[0m
+
+  [36m10[0m  [36m(defui Counter[0m
+  [36m11[0m  [36m  Object[0m
+  [33m12[0m  [1m  (let [{:keys [count]} (om/props this)][0m
+  [0m  [0m  [33m  ^--- Unsupported binding form: (om/props this)[0m
+  [36m13[0m  [36m    (dom/div nil[0m
+  [36m14[0m  [36m      (dom/span nil (str "Count: " count))[0m
+  [36m15[0m  [36m      (dom/button nil[0m
+
+[36m----  Analysis Error : Please see src/try_om/states.cljs  ----[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling src/try_om/states.cljs
+[31mFailed to compile "resources/public/js/main.js" in 0.291 seconds.[0m
+[36m----  Could not Analyze  src/try_om/states.cljs   line:12  column:3  ----[0m
+
+  [1mUnsupported binding form: (om/props this)[0m
+
+  [36m10[0m  [36m(defui Counter[0m
+  [36m11[0m  [36m  Object[0m
+  [33m12[0m  [1m  (let [{:keys [count]} (om/props this)][0m
+  [0m  [0m  [33m  ^--- Unsupported binding form: (om/props this)[0m
+  [36m13[0m  [36m    (dom/div nil[0m
+  [36m14[0m  [36m      (dom/span nil (str "Count: " count))[0m
+  [36m15[0m  [36m      (dom/button nil[0m
+
+[36m----  Analysis Error : Please see src/try_om/states.cljs  ----[0m
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling src/try_om/states.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs to resources/public/js/try_om/states.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.476 seconds.[0m
+notifying browser that file changed:  out/try_om/states.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs to resources/public/js/try_om/states.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 1.816 seconds.[0m
+notifying browser that file changed:  resources/public/js/goog/deps.js
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  out/try_om/states.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs to resources/public/js/try_om/states.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.889 seconds.[0m
+notifying browser that file changed:  out/try_om/states.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs to resources/public/js/try_om/states.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.72 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  out/try_om/states.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs to resources/public/js/try_om/states.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.523 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  out/try_om/states.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs to resources/public/js/try_om/states.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.489 seconds.[0m
+notifying browser that file changed:  out/try_om/states.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs to resources/public/js/try_om/states.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.576 seconds.[0m
+notifying browser that file changed:  out/try_om/states.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs to resources/public/js/try_om/states.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.465 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  out/try_om/states.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs to resources/public/js/try_om/states.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.49 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  out/try_om/states.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs to resources/public/js/try_om/states.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.452 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  out/try_om/states.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs to resources/public/js/try_om/states.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.447 seconds.[0m
+notifying browser that file changed:  resources/public/js/cljs_deps.js
+notifying browser that file changed:  out/try_om/states.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs to resources/public/js/try_om/states.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.424 seconds.[0m
+notifying browser that file changed:  out/try_om/states.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs to resources/public/js/try_om/states.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.489 seconds.[0m
+notifying browser that file changed:  out/try_om/states.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs to resources/public/js/try_om/states.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.482 seconds.[0m
+notifying browser that file changed:  out/try_om/states.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs to resources/public/js/try_om/states.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.483 seconds.[0m
+notifying browser that file changed:  out/try_om/states.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs to resources/public/js/try_om/states.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.451 seconds.[0m
+notifying browser that file changed:  out/try_om/states.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs to resources/public/js/try_om/states.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.498 seconds.[0m
+notifying browser that file changed:  out/try_om/states.js
+[0mCompiling "resources/public/js/main.js" from ["src"]...[0m
+Compiling /Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs
+Copying file:/Users/Nadiar/Leinspaces/clojure-master/try-om/src/try_om/states.cljs to resources/public/js/try_om/states.cljs
+[32mSuccessfully compiled "resources/public/js/main.js" in 0.373 seconds.[0m
+notifying browser that file changed:  out/try_om/states.js
