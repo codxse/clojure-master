@@ -21,4 +21,13 @@
 
 (fixo-push [31 4 5 2] 4/7)
 
+(defprotocol IKontainer
+  (angkat [kurir barang berat])
+  (cek-isi [kurir aman?]))
+
+(defrecord JNE
+  IKontainer
+  (angkat [kurir barang berat]))
+    
+
 
